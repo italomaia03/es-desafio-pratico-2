@@ -1,7 +1,5 @@
 package app.services.interfaces;
 
-import app.models.Cliente;
-
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.util.List;
