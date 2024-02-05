@@ -49,8 +49,4 @@ public class ConnectionDB {
         return conn;
     }
 
-    public static void main(String[] args) {
-        ConnectionDB connectionDB1 = ConnectionDB.getInstance("/home/italo/Documents/ufca/3-semestre/engenharia-software/desafio-pratico-2/src/test/java/app/db/app.db");
-        connectionDB1.connect();
-    }
 }
