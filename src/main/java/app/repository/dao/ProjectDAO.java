@@ -17,7 +17,7 @@ public class ProjectDAO implements IProjetoDAO{
 
     public ProjectDAO() {
         Dotenv dotenv = Dotenv.load();
-        this.conn = ConnectionDB.getInstance("SQLITE_URL");
+        this.conn = ConnectionDB.getInstance(dotenv.get("SQLITE_URL"));
     }
 
     @Override
